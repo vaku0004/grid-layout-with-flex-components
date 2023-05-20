@@ -28,7 +28,6 @@ body {
   .icon {
     font-size: 4rem;
     order: -1;
-    flex-basis: 6rem;
     margin-left: 9rem;
   }
 
@@ -36,7 +35,7 @@ body {
     margin: auto;
     display: grid;
     grid-template-columns: 410px 410px;
-    grid-template-rows: 330px 370px;
+    grid-template-rows: 330px 350px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     padding-left: 100px;
@@ -48,4 +47,8 @@ body {
 
   h1 {
     padding-left: 100px;
+  }
+
+  #plant {
+    height: 80px;
   }
